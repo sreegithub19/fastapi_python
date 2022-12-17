@@ -1,12 +1,19 @@
 from fastapi import FastAPI
-from .routes import router as NoteRouter
+from fastapi.responses import HTMLResponse
 
 app = FastAPI()
 
-@app.get("/", tags=["Root"])
-async def read_root() -> dict:
-    return {
-        "message": "Welcome to my notes application, use the /docs route to proceed"
-    }
 
-app.include_router(NoteRouter, prefix="/note")
+@app.get("/")
+async def read_items():
+    html_content = """
+    <html>
+        <head>
+            <title>Some HTML in here</title>
+        </head>
+        <body>
+            <h1>Look ma! HTML!</h1>
+        </body>
+    </html>
+    """
+    return HTMLResponse(content=html_content, status_code=200)
