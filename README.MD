@@ -29,6 +29,8 @@ Run the application:
 
 ```
 python3 main.py
+git add . && git commit -m "C" && git push origin main && vercel --prod
+
 ```
 
 ## Error?
