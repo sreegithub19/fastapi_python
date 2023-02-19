@@ -2,6 +2,11 @@ Details:
 
 - View this project demo on <a href="https://www.youtube.com/watch?v=1TV3vUGNr-o&list=PLbkOKmQRnCn45kDUhMIgzyGSAj7u0v4xU">Youtube</a>.
 
+
+
+https://user-images.githubusercontent.com/55496113/219962220-89d63a90-639e-437a-a44d-0ad6dcda5c02.mp4
+
+
 - <a href="https://en.wikipedia.org/wiki/FastAPI">FastAPI</a> is a Web framework for developing RESTful APIs in Python. FastAPI is based on Pydantic and type hints to validate, serialize, and deserialize data, and automatically auto-generate OpenAPI documents.
 - Github <a href="https://github.com/tiangolo/fastapi">link</a> to FastAPI.
 - About this project:
