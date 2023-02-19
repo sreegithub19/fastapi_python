@@ -5307,9 +5307,6 @@ a:visited {
     </div>
   </div>
 </div>
-<a id="youtube" href="https://youtu.be/bTk6dcAckuI" target="_blank">
-  <span>See how this game was made</span>
-</a>
 <div id="youtube-card">
   How to simulate ball movement in a maze with JavaScript
 </div>
@@ -5978,12 +5975,7 @@ function main(timestamp) {
     ) {
       noteElement.innerHTML = `Congrats, you did it!
         ${!hardMode ? "<p>Press H for hard mode</p>" : ""}
-        <p>
-          Follow me
-          <a href="https://twitter.com/HunorBorbely" , target="_blank"
-            >@HunorBorbely</a
-          >
-        </p>`;
+        `;
       noteElement.style.opacity = 1;
       gameInProgress = false;
     } else {
