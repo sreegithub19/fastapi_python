@@ -2,9 +2,7 @@ Details:
 
 - View this project demo:
 
-
 https://user-images.githubusercontent.com/55496113/219962220-89d63a90-639e-437a-a44d-0ad6dcda5c02.mp4
-
 
 - <a href="https://en.wikipedia.org/wiki/FastAPI">FastAPI</a> is a Web framework for developing RESTful APIs in Python. FastAPI is based on Pydantic and type hints to validate, serialize, and deserialize data, and automatically auto-generate OpenAPI documents.
 - Github <a href="https://github.com/tiangolo/fastapi">link</a> to FastAPI.
@@ -26,7 +24,7 @@ https://user-images.githubusercontent.com/55496113/219962220-89d63a90-639e-437a-
 
     - Puzzles: User will have to rearrange the pieces to form the picture that is shown on the screen. The steps and time taken are counted.
 
-      - There are a sample of 5 images in this app (Harju-Madis Church, Kakumäe Harbor, Kohila mill, Rahumäe train station, Neeruti manor).
+      - There are a sample of 5 images in this app.
       - This game has 4 levels of difficulty:
         - Easy (3x3)
         - Medium (4x4)
